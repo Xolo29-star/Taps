@@ -2,12 +2,13 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0a0a0a;
+  background-color: black;
   color: white;
+  text-align: center;
 }
 
 header {
-  background-color: #0a0a0a;
+  background-color: black;
   padding: 20px;
   text-align: center;
   color: white;
@@ -32,15 +33,13 @@ nav a:hover {
 
 section {
   padding: 20px;
-  background-color: #0a0a0a;
+  background-color: #000000;
+  color: white;
+  text-align: center;
 }
 
-footer {
-  background-color: #0a0a0a;
-  color: #fff;
-  padding: 10px;
+.menu-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
   text-align: center;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
 }
